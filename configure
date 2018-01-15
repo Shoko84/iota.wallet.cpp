@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+echo "Install QT"
+sudo apt install qt-sdk
+
+echo "CMake"
+cd build
+cmake ..
+
+echo "Done configure"
